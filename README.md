@@ -2,9 +2,9 @@
 Train the financial words with BERT or Transformer
 Source Code: https://github.com/sinjorjob/chABSA-dataset
 
-1. Environment Setting
+# 1. Environment Setting
 
-1.1 summary
+# 1.1 summary
 
 MacOS
 
@@ -19,9 +19,9 @@ Juman++ v2.0.0-rc2
 Pytorch
 
 
-1.2 operation instrument
+# 1.2 operation instrument
 
-1.2.1 virtual environment
+# 1.2.1 virtual environment
 
 terminal --> 
 
@@ -43,9 +43,9 @@ conda install pytorch=0.4 torchvision cudatoolkit -c pytorch
 
 conda install pandas jupyter matplotlib scipy scikit-learn pillow tqdm cython
 
-1.2.2 Juman++
+# 1.2.2 Juman++
 
-#MacOS
+--> MacOS
 
 $ brew install jumanpp
 
@@ -55,13 +55,13 @@ JUMAN++ 1.02
 
 pip install pyknp
 
-#Ubuntu Linux
+-->Ubuntu Linux
 
-# jumanpp-2.0.0-rc3 download
+jumanpp-2.0.0-rc3 download
 
 wget https://github.com/ku-nlp/jumanpp/releases/download/v2.0.0-rc3/jumanpp-2.0.0-rc3.tar.xz
 
-# unzip a file
+unzip a file
 
 tar xvf jumanpp-2.0.0-rc3.tar.xz
 
@@ -79,7 +79,7 @@ sudo make install
 
 To check if it is ready, you can try: echo すももももももももももも | jumanpp
 
-1.2.3 BERT_Pretrained
+# 1.2.3 BERT_Pretrained
 
 download from: http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB
 
